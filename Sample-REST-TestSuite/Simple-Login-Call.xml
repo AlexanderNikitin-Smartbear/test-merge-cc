@@ -13,6 +13,12 @@ NOTE: If you would like to run the Login step without as a standalone step pleas
     <con:setting id="c3fbf613-f789-4fe0-a4e5-1757eba3ccc2fileName">Simple-Login-Call</con:setting>
   </con:settings>
   <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:testStep type="groovy" name="Groovy Script" id="bd0f5d2b-e056-4bd9-a367-a2387d1b21ad">
+    <con:settings/>
+    <con:config>
+      <script/>
+    </con:config>
+  </con:testStep>
   <con:testStep type="VirtRunnerTestStep" name="StartService" id="49e7dd6f-1ad0-4104-8d0a-2bc166ee29e4">
     <con:settings/>
     <con:config>
@@ -20,6 +26,16 @@ NOTE: If you would like to run the Login step without as a standalone step pleas
       <server>EcommerceVirt</server>
       <action>run</action>
     </con:config>
+  </con:testStep>
+  <con:testStep type="groovy" name="Groovy Script 2" id="57a17fad-f93e-4f0a-98a3-1e5a612d6e58">
+    <con:settings/>
+    <con:config>
+      <script/>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="assertionteststep" name="Assertion" id="a934acea-5dd2-4b9f-b873-7a2a8e407b4f">
+    <con:settings/>
+    <con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </con:testStep>
   <con:testStep type="restrequest" name="Login" id="8c4c6e50-238e-4476-80dc-15d7b89fff4f">
     <con:settings/>
@@ -95,6 +111,11 @@ NOTE: If you would like to run the Login step without as a standalone step pleas
   <con:reportParameters/>
   <con:breakPoints>
     <con:testStepId>49e7dd6f-1ad0-4104-8d0a-2bc166ee29e4</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>57a17fad-f93e-4f0a-98a3-1e5a612d6e58</con:testStepId>
     <con:status>NONE</con:status>
     <con:properties/>
   </con:breakPoints>
